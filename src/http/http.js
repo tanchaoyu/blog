@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "http://149.129.73.223:8080/ssmblog";
+
 const login = (username, password) => {
   return new Promise(function(resolve) {
     axios({
